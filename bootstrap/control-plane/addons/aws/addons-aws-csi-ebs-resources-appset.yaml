@@ -15,7 +15,7 @@ spec:
                 addonChart: aws-ebs-csi-classes
                 # anything not staging or prod use this version
                 addonChartVersion: 1.0.0
-                addonChartRepository: https://gitops-bridge-dev.github.io/gitops-bridge-helm-charts
+                addonChartRepository: https://gitops-bridge-dev.github.io/gitops-bridge-helm-charts-fdsa
               selector:
                 matchExpressions:
                   - key: akuity.io/argo-cd-cluster-name
